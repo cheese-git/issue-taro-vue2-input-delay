@@ -14,6 +14,13 @@ const config = {
   },
   copy: {
     patterns: [
+      { from: 'src/vant-weapp/wxs', to: 'dist/vant-weapp/wxs' },
+      { from: 'src/vant-weapp/common/style', to: 'dist/vant-weapp/common/style' },
+      { from: 'src/vant-weapp/common/index.wxss', to: 'dist/vant-weapp/common/index.wxss' },
+      { from: 'src/vant-weapp/cell/index.wxss', to: 'dist/vant-weapp/cell/index.wxss' },
+      { from: 'src/vant-weapp/field/index.wxss', to: 'dist/vant-weapp/field/index.wxss' },
+      { from: 'src/vant-weapp/field/index.wxs', to: 'dist/vant-weapp/field/index.wxs' },
+      { from: 'src/vant-weapp/icon/index.wxs', to: 'dist/vant-weapp/icon/index.wxs' },
     ],
     options: {
     }
@@ -24,7 +31,7 @@ const config = {
       pxtransform: {
         enable: true,
         config: {
-
+          selectorBlackList: [/van-/]
         }
       },
       url: {
