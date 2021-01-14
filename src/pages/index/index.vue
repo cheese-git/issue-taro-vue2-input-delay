@@ -1,6 +1,8 @@
 <template>
   <view class="index">
-    <view>测试方式：在输入框中快速输入一串数字，如：123456789</view>
+    <view
+      >测试方式：使用安卓手机（如小米10）在输入框中快速输入一串数字，如：123456789</view
+    >
     <van-divider contentPosition="center">会出现卡顿</van-divider>
     <view>封装了 van-field 的自定义组件，通过 v-model 进行双向绑定：</view>
     <VanInput v-model="value1" />
