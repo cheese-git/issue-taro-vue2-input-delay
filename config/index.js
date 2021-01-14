@@ -1,5 +1,5 @@
 const config = {
-  projectName: 'issure-taro-vue2-input-delay',
+  projectName: 'issue-taro-vue2-input-delay',
   date: '2021-1-14',
   designWidth: 750,
   deviceRatio: {
